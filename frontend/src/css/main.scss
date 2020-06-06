@@ -1,0 +1,36 @@
+$primary-color: #34cb79;
+$title-color: #322153;
+$text-color: #6c6c80;
+$bd-radius: 8px;
+
+@import 'home';
+@import 'points';
+@import 'dropzone';
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: #f0f0f5;
+   color: $text-color;
+   -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+   font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: $title-color;
+   font-family: Ubuntu;
+}
